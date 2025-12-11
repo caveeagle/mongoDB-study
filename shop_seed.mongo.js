@@ -1,7 +1,7 @@
 // ================================================
 // Initialize database
 // ================================================
-use shop;
+use study_db_shop;
 
 // Clear collections if they already exist
 db.customers.drop();
@@ -127,4 +127,4 @@ db.orders.insertMany([
 // ================================================
 // Done
 // ================================================
-print("Database 'shop' successfully initialized.");
+print("Database 'study_db_shop' successfully initialized.");
